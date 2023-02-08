@@ -2,6 +2,7 @@ import './App.css';
 import { PriceCard } from './priceCard';
 
 
+
 const cardDetails = [
   {
     price:"0",
