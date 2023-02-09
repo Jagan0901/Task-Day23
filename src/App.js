@@ -75,10 +75,10 @@ const cardDetails = [
 function App() {
   return (
     // <div>
-    <section class="pricing py-5">
-    <div class="container">
-    <div class="row">
-      {cardDetails.map((cd) => <PriceCard card ={cd}/>)}
+    <section className="pricing py-5">
+    <div className="container">
+    <div className="row">
+      {cardDetails.map((cd,index) => <PriceCard card ={cd} key ={index}/>)}
       </div>
     </div>
     </section>
